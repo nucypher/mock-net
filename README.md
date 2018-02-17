@@ -23,3 +23,14 @@ NuCypher KMS Hackathon for ETHDenver 2018
 ### Notes:
 1. When calling `umbral.split_rekey`, TWO variables are returned -- a list of `kfrags`, and a list of `vkeys`.
     - DO NOT keep the `vkeys`, they are not usable yet. You can do this by `kfrags, _  = umbral.split_rekey(...)`
+
+### Links:
+GitHub Links:
+    - https://github.com/nucypher/pyUmbral/
+    - https://github.com/nucypher/umbral-doc/
+    - https://github.com/nucypher/nucypher-kms/
+
+Community Links:
+    - https://discord.gg/7rmXa3S 
+    - https://twitter.com/nucypher/
+    - https://nucypher.com/
