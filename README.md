@@ -2,12 +2,12 @@
 NuCypher KMS Hackathon for ETHDenver 2018
 
 ### Usage Instructions:
-1. Install pyUmbral dependencies:
+1. Install pyUmbral dependencies (perhaps, a good idea to spin up a virtualenv before):
     - `pip3 install cryptography`
     - `pip3 install pynacl`
 2. Clone pyUmbral and install it:
     - `git clone https://github.com/nucypher/pyUmbral.git`
-    - `python3 setup.py install`
+    - `pip3 install -e pyUmbral`
 3. Copy the `nucypher.py` file from this project to your own.
     - Use as `from nucypher import MockNetwork`
     - The `MockNetwork` object is meant to be instantiated once and used as needed.
