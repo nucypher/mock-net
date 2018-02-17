@@ -26,6 +26,7 @@ NuCypher KMS Hackathon for ETHDenver 2018
 
 ### Links:
 GitHub Links:
+
     - https://github.com/nucypher/pyUmbral/
 
     - https://github.com/nucypher/umbral-doc/
@@ -33,6 +34,7 @@ GitHub Links:
     - https://github.com/nucypher/nucypher-kms/
 
 Community Links:
+
     - https://discord.gg/7rmXa3S 
     
     - https://twitter.com/nucypher/
