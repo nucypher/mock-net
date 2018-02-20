@@ -5,6 +5,7 @@ NuCypher KMS Hackathon for ETHDenver 2018
 1. Install pyUmbral dependencies (perhaps, a good idea to spin up a virtualenv before):
     - `pip3 install cryptography`
     - `pip3 install pynacl`
+    - Install `libffi` headers (in Debian-based Linux distributions: `apt-get install libffi-dev`)
 2. Clone pyUmbral and install it:
     - `git clone https://github.com/nucypher/pyUmbral.git`
     - `pip3 install -e pyUmbral`
