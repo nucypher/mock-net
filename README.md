@@ -1,5 +1,4 @@
-# ETHDenver-2018
-NuCypher KMS Hackathon for ETHDenver 2018
+# NuCypher KMS MockNet
 
 ### Usage Instructions:
 1. Install pyUmbral dependencies (perhaps, a good idea to spin up a virtualenv before):
