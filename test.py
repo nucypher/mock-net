@@ -33,7 +33,7 @@ bob_capsule = capsule
 for cfrag in bob_cfrags:
     bob_capsule.attach_cfrag(cfrag)
 
-decrypted_data = pre.decrypt(bob_capsule, bob_privkey, ciphertext, alice_pubkey)
+decrypted_data = pre.decrypt(ciphertext, bob_capsule, bob_privkey, alice_pubkey)
 assert decrypted_data == plaintext
 
 
