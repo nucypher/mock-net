@@ -1,4 +1,4 @@
-# NuCypher KMS MockNet
+# NuCypher MockNet
 
 ### Usage Instructions:
 1. Install `pipenv` if you don't get have it and spin up a virtual environment with it:
@@ -29,7 +29,7 @@ https://github.com/nucypher/pyUmbral/
 
 https://github.com/nucypher/umbral-doc/
 
-https://github.com/nucypher/nucypher-kms/
+https://github.com/nucypher/nucypher/
 
 Community Links:
 
