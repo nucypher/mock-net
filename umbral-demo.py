@@ -10,6 +10,7 @@ config.set_default_curve()
 # Generate keys for Alice and Bob
 alice_priv_key = keys.UmbralPrivateKey.gen_key()
 alice_pub_key = alice_priv_key.get_pubkey()
+
 alice_signing_priv_key = keys.UmbralPrivateKey.gen_key()
 alice_signer = Signer(alice_signing_priv_key)
 alice_signing_pub_key = alice_signing_priv_key.get_pubkey()
