@@ -58,8 +58,8 @@ bob_capsule.set_correctness_keys(delegating=alice_pub_key,
                                  verifying=alice_signing_pub_key)
 # Re-encrypt
 for kfrag in rand_min_shares:
-    cfrag = pre.reencrypt(kfrag, umbral_capsule)
-    bob_capsule.attach_cfrag(cfrag)
+    cfrag = pre.reencrypt(kfrag, umbral_capsule)  # <- Ursula does that
+    bob_capsule.attach_cfrag(cfrag)               # <- Bob does that
 
 #9
 # Bob reconstructs the capsule and decrypts the ciphertext:
