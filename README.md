@@ -7,10 +7,7 @@
     - `pipenv shell`
 
    P.S. If you use Windows, your installation process might be more involved than that.
-2. Clone pyUmbral and install it:
-    - `git clone https://github.com/nucypher/pyUmbral.git`
-    - `pip3 install -e pyUmbral`
-3. Copy the `nucypher.py` file from this project to your own.
+2. Copy the `nucypher.py` file from this project to your own.
     - Use as `from nucypher import MockNetwork`
     - The `MockNetwork` object is meant to be instantiated once and used as needed.
     - See the `test.py` file for an example of how it's used.
