@@ -1,5 +1,8 @@
 # NuCypher MockNet
 
+### WARNING
+This repo is no longer maintained. We now have a functional testnet that you should use instead: https://github.com/nucypher/nucypher
+
 ### Usage Instructions:
 1. Install `pipenv` if you don't get have it and spin up a virtual environment with it:
     - `sudo pip3 install pipenv`
